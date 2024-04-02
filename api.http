@@ -6,3 +6,13 @@ Content-Type: application/json
     "details": "Um evento para quem é apaixonado por programação",
     "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/decb57cd-834a-47eb-b391-3d2517544645/attendees
+Content-Type: application/json
+
+{
+    "name": "Franklin Marden",
+    "email": "rodrigues_marden@hotmail.com"
+}
