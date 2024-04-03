@@ -5,7 +5,7 @@ export function generateSlug(text: string): string {
         .toLowerCase() // Converte para minúsculas
         .replace(/[^\w\s]/g, "") // Remove símbolos
         .replace(/\s+/g, "-"); // Substitui espaços por hífens
-};
+}
 
 
 
