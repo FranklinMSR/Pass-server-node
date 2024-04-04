@@ -30,27 +30,3 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 ### Requisitos não-funcionais
 
 - [ ]  O check-in no evento será realizado através de um QRCode;
-
-## Anotações
-
-Métodos HTTP: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS, ...
-
-Corpo da requisição (Request Body)
-Parâmetros de busca (Search Parms / Query Parms) 'http://localhost:3333/users?name=Franklin'
-Parâmetros de rota (Route Parms) --> Indentificação de recursos 'DELETE http://localhost:3333/users/5'
-Cabeçalhos (Headers) --> Contexto
-
-Semântica = Significado
-
-Driver nativo / Query Builders / ORM's
-
-Object Relational Mapping (Hibernate / Doctrine / ActiveRecord)
-
-JSON = JavaScript Object Notation
-
-Tipos de códigos:
-
-20x => Sucesso
-30x => Redirecionamento
-40x => Erro do Cliente (Erro em alguma informação enviada por QUEM está fazendo a chamda p/ API)
-50x => Erro do sevidor (Um eroo que está acontecendo INDEMPENDENTE do que está sendo enviado p/ o servidor)
